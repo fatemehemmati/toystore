@@ -1,0 +1,181 @@
+ *{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+ } 
+
+.button:hover{
+ 
+  transform: translatey(-10px);
+}
+ .img {
+        width: 100%;
+        height: 100%;
+      }
+     
+      .button-img {
+        width: 20px;
+        height: 20px;
+      }
+      .img-top{
+   
+        background-image: url('images\\Baby_Girls_Personalized_Unicorn_Plush.jpg');
+        background-repeat: no-repeat;
+         width: 100%;
+         background-size: 100% 500px;
+         min-height: 600px;
+     
+      }
+    .h1{
+      font-size: medium;
+      font-style: Monospace;
+    }
+   .h1-homepage{
+    font-size: 55px;
+  color: rgb(112, 86, 182);
+  position: absolute;
+  left: 4rem;
+  top: 170px;
+   }
+   .mr-4{
+     width:850px;
+   }
+   .div-container{
+      margin-left: 90px;
+      width: fit-content;
+   }
+   .P-TOP{
+     font-size:30px;
+  color: rgb(112, 86, 182);
+  position: absolute;
+  left: 1rem;
+  top: 230px;
+   }
+  
+   .container-card {
+  width: 100vw;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+ margin-top: 20px;
+  position: relative;
+  gap: 20px;
+}
+   .container-star {
+  z-index: 2;
+   position: absolute; 
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.cards {
+    
+  width:15rem;
+  height: 22rem;
+  z-index: 1;
+  transition-property: transform;
+  transition-timing-function:ease-in-out;
+  transition-duration: 0.2s;
+  margin-bottom: 30px;
+   overflow: hidden; 
+  margin: 1px;
+  border-radius: 5%;
+  border-color: mediumpurple;
+}
+.cards:hover {
+  box-shadow: 3px 3px 15px rgba(55, 31, 110, 0.3);
+  transform: scale(1.03);
+  border-radius: 5%;
+}
+.img-card {
+  width: 100%;
+  height: 13.5rem;
+  transition-property: transform;
+  transition-timing-function: ease-out;
+  transition-duration: 0.3s;
+}
+.img-card:hover {
+  transform: scale(1.2);
+}
+.text {
+  width: 50%;
+  font-size: 1.5rem;
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+
+}
+.price{
+  margin-left: 37%;
+}
+.shop {
+  color: goldenrod;
+  background-color: rgba(177, 156, 228, 0.659);
+  padding: 11px;
+  font-size: 1.2rem;
+  margin: auto;
+  border-radius: 100%;
+  transition: padding 0.5s ease-in-out;
+}
+.shop:after {
+  float: right;
+  content: "buy";
+  display: none;
+  padding: 5px 0 0 17px;
+  font-size: 0.7rem;
+  text-align: end;
+}
+.shop:hover {
+  padding-right: 30px;
+  border-radius: 20px;
+}
+.shop:hover:after {
+  display: inline;
+}
+
+.con-label {
+  position: relative;
+  z-index: 3;
+}
+.label {
+  position: absolute;
+  left: 150px;
+  top: 5px;
+  background-color: hsl(271, 75%, 69%);
+  color: #fff;
+  border-radius: 40px;
+  padding: 5px;
+  font-size: 1rem;
+}
+.container-star {
+  z-index: 2;
+  position: absolute;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.star {
+  color:gold;
+}
+.heart {
+  color: hsl(298, 51%, 53%);
+  background-color:rgba(177, 156, 228, 0.659);
+  padding: 11px;
+  font-size: 1.2rem;
+  margin-left: 1px;
+  border-radius: 100%;
+  transition: padding 0.5s ease-in-out;
+}
+.heart:after {
+  float: right;
+  content: "like";
+  display: none;
+  padding: 5px 0 0 17px;
+  font-size: 0.7rem;
+  text-align: end;
+}
+.heart:hover {
+  padding-right: 30px;
+  border-radius: 20px;
+}
+.heart:hover:after {
+  display: inline;
+}
